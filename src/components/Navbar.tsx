@@ -19,15 +19,15 @@ const Navbar: React.FC<INavBarProps> = () => {
             </div>
             <ul className="nav-link">
                 <li>
-                    <button>
-                        <img src={logo3} alt="" />
+                    <button className="btn-1">
+                        <img src={logo3} alt="" style={{ marginLeft: "30px" }} />
                         6 CONNECTED
                     </button>
                 </li>
                 <li>
-                    <button>
-                        <img src={logo2} alt="" />
-                        LOGOUT
+                    <button className="btn-2">
+                        <img src={logo2} alt=""   style={{ marginLeft: "30px" }}/>
+                        LOG OUT
                     </button>
                 </li>
             </ul>

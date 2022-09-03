@@ -2,9 +2,11 @@ import PixelPerfect from 'react-pixel-perfect'
 
 
 import Navbar from './components/Navbar';
-import Sections from './components/Sections';
+import SectionFirst from './components/SectionFirst'
+import SectionSecond from './components/SectionSecond'
 
 import './App.css';
+import CenterBtn from './components/CenterBtn';
 
 
 function App() {
@@ -12,15 +14,15 @@ function App() {
 
     <PixelPerfect>
       <div className="App">
-
-
-
         <Navbar />
-
-        <Sections />
+        <div className="section" >
+          <SectionFirst />
+          <SectionSecond />
+          <CenterBtn />
+        </div>
 
       </div>
-    </PixelPerfect>
+    </PixelPerfect >
   );
 }
 
